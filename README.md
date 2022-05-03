@@ -1,12 +1,12 @@
 
 # Rapport
 
-Jag forkade projektet från github
-sedan skapade jag en andra activity och döpte den till SecondActivity
-sedan skapade jag en knapp i activity_main
-jag skapade en intent som öppar min andra activity, jag gav den även extras i form av namn(Halloj)och nummer(50)
-sedan satte jag intenten inom en onclick för knappen
-min onclick ser ut så här:
+Jag forkade projektet från github.
+Sedan skapade jag en andra activity och döpte den till SecondActivity.
+Sedan skapade jag en knapp i activity_main.
+Jag skapade en intent som öppar min andra activity, jag gav den även extras i form av namn(Halloj)och nummer(50).
+Sedan satte jag intenten inom en onclick för knappen.
+Min onclick ser ut så här:
 ```
 Button button = findViewById(R.id.mainButton);
 button.setOnClickListener(new View.OnClickListener() {
